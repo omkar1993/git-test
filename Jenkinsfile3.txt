@@ -5,7 +5,6 @@ pipeline {
             steps {
           //  echo 'Fail!'; exit 1
                    echo 'SUCCESS'
-                   cleanWs()
             }
         }
     }
